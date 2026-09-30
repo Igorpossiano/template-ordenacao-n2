@@ -4,7 +4,17 @@ public class SelectionSort implements SortingStrategy {
     * Ordena um array de inteiros utilizando o selection sort.
     */
     public void sort(int[] v) {
-        // TODO: implementar
+        for(int i = 0; i < v.length;i++){
+            int menor = i;
+            for(int j = 0;j < v.length;j++){
+                if(v[menor] > v[j]){
+                    menor = j;
+                }
+            }
+            int aux = v[i];
+            v[i] = v[menor];
+            v[menor] = aux;
+        }
     }
 
     /**

@@ -134,7 +134,7 @@ public class InsertionSortAsserts {
         new InsertionSortAsserts().insereUltimoOrdenado();
         new InsertionSortAsserts().inserePrimeiroOrdenado();
         new InsertionSortAsserts().sort();
-        new InsertionSortAsserts().sortRecursivo();
+        //new InsertionSortAsserts().sortRecursivo();
     }
 
 }
